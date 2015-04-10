@@ -1,0 +1,286 @@
+---
+build.dart --machine --full
+Unhandled exception:
+Uncaught Error: Load Error: FileSystemException: Cannot open file, path = 'C:\Users\AlassaneOusmane\dart\polymer_link_dartlero\polymer_category_links\polymer_category_links_s04\packages\polymer\default_build.dart' (OS Error: Le chemin d’accès spécifié est introuvable.
+, errno = 3)
+Stack Trace:
+#0      _asyncLoadErrorCallback (dart:_builtin:343)
+#1      _asyncLoadError (dart:_builtin:362)
+#2      _loadDataAsyncDartIO.<anonymous closure> (dart:_builtin:76)
+#3      _RootZone.runUnary (dart:async/zone.dart:1155)
+#4      _Future._propagateToListeners.handleError (dart:async/future_impl.dart:515)
+#5      _Future._propagateToListeners (dart:async/future_impl.dart:570)
+#6      _Future._completeWithValue (dart:async/future_impl.dart:358)
+#7      _Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:412)
+#8      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:41)
+#9      _asyncRunCallback (dart:async/schedule_microtask.dart:48)
+#10     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
+#11     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:143)
+
+#0      _rootHandleUncaughtError.<anonymous closure> (dart:async/zone.dart:886)
+#1      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:41)
+#2      _asyncRunCallback (dart:async/schedule_microtask.dart:48)
+#3      _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
+#4      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:143)
+build.dart finished [397 ms]
+
+---
+build.dart --machine --changed=lib\contact_links.dart --changed=test\model\contact_entities_test.dart --removed...
+Unhandled exception:
+Uncaught Error: Load Error: FileSystemException: Cannot open file, path = 'C:\Users\A&S\Desktop\Charaf\polymer_contact_links_s04\packages\polymer\default_build.dart' (OS Error: Le chemin d’accès spécifié est introuvable.
+, errno = 3)
+Stack Trace:
+#0      _asyncLoadErrorCallback (dart:_builtin:343)
+#1      _asyncLoadError (dart:_builtin:362)
+#2      _loadDataAsyncDartIO.<anonymous closure> (dart:_builtin:76)
+#3      _RootZone.runUnary (dart:async/zone.dart:1155)
+#4      _Future._propagateToListeners.handleError (dart:async/future_impl.dart:515)
+#5      _Future._propagateToListeners (dart:async/future_impl.dart:570)
+#6      _Future._completeWithValue (dart:async/future_impl.dart:358)
+#7      _Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:412)
+#8      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:41)
+#9      _asyncRunCallback (dart:async/schedule_microtask.dart:48)
+#10     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
+#11     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:143)
+
+#0      _rootHandleUncaughtError.<anonymous closure> (dart:async/zone.dart:886)
+#1      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:41)
+#2      _asyncRunCallback (dart:async/schedule_microtask.dart:48)
+#3      _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
+#4      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:143)
+build.dart finished [1281 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unhandled exception:
+Uncaught Error: Load Error: FileSystemException: Cannot open file, path = 'C:\Users\A&S\Desktop\Charaf\polymer_contact_links_s04\packages\polymer\default_build.dart' (OS Error: Le chemin d’accès spécifié est introuvable.
+, errno = 3)
+Stack Trace:
+#0      _asyncLoadErrorCallback (dart:_builtin:343)
+#1      _asyncLoadError (dart:_builtin:362)
+#2      _loadDataAsyncDartIO.<anonymous closure> (dart:_builtin:76)
+#3      _RootZone.runUnary (dart:async/zone.dart:1155)
+#4      _Future._propagateToListeners.handleError (dart:async/future_impl.dart:515)
+#5      _Future._propagateToListeners (dart:async/future_impl.dart:570)
+#6      _Future._completeWithValue (dart:async/future_impl.dart:358)
+#7      _Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:412)
+#8      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:41)
+#9      _asyncRunCallback (dart:async/schedule_microtask.dart:48)
+#10     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
+#11     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:143)
+
+#0      _rootHandleUncaughtError.<anonymous closure> (dart:async/zone.dart:886)
+#1      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:41)
+#2      _asyncRunCallback (dart:async/schedule_microtask.dart:48)
+#3      _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
+#4      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:143)
+build.dart finished [782 ms]
+
+---
+build.dart --machine --changed=doc\polymer_update.txt
+Unhandled exception:
+Uncaught Error: Load Error: FileSystemException: Cannot open file, path = 'C:\Users\A&S\Desktop\Charaf\polymer_contact_links_s04\packages\polymer\default_build.dart' (OS Error: Le chemin d’accès spécifié est introuvable.
+, errno = 3)
+Stack Trace:
+#0      _asyncLoadErrorCallback (dart:_builtin:343)
+#1      _asyncLoadError (dart:_builtin:362)
+#2      _loadDataAsyncDartIO.<anonymous closure> (dart:_builtin:76)
+#3      _RootZone.runUnary (dart:async/zone.dart:1155)
+#4      _Future._propagateToListeners.handleError (dart:async/future_impl.dart:515)
+#5      _Future._propagateToListeners (dart:async/future_impl.dart:570)
+#6      _Future._completeWithValue (dart:async/future_impl.dart:358)
+#7      _Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:412)
+#8      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:41)
+#9      _asyncRunCallback (dart:async/schedule_microtask.dart:48)
+#10     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
+#11     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:143)
+
+#0      _rootHandleUncaughtError.<anonymous closure> (dart:async/zone.dart:886)
+#1      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:41)
+#2      _asyncRunCallback (dart:async/schedule_microtask.dart:48)
+#3      _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
+#4      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:143)
+build.dart finished [1172 ms]
+
+---
+build.dart --machine --changed=doc\questions.txt
+Unhandled exception:
+Uncaught Error: Load Error: FileSystemException: Cannot open file, path = 'C:\Users\A&S\Desktop\Charaf\polymer_contact_links_s04\packages\polymer\default_build.dart' (OS Error: Le chemin d’accès spécifié est introuvable.
+, errno = 3)
+Stack Trace:
+#0      _asyncLoadErrorCallback (dart:_builtin:343)
+#1      _asyncLoadError (dart:_builtin:362)
+#2      _loadDataAsyncDartIO.<anonymous closure> (dart:_builtin:76)
+#3      _RootZone.runUnary (dart:async/zone.dart:1155)
+#4      _Future._propagateToListeners.handleError (dart:async/future_impl.dart:515)
+#5      _Future._propagateToListeners (dart:async/future_impl.dart:570)
+#6      _Future._completeWithValue (dart:async/future_impl.dart:358)
+#7      _Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:412)
+#8      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:41)
+#9      _asyncRunCallback (dart:async/schedule_microtask.dart:48)
+#10     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
+#11     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:143)
+
+#0      _rootHandleUncaughtError.<anonymous closure> (dart:async/zone.dart:886)
+#1      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:41)
+#2      _asyncRunCallback (dart:async/schedule_microtask.dart:48)
+#3      _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
+#4      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:143)
+build.dart finished [1238 ms]
+
+---
+build.dart --machine --changed=doc\polymer_update.txt
+Unhandled exception:
+Uncaught Error: Load Error: FileSystemException: Cannot open file, path = 'C:\Users\A&S\Desktop\Charaf\polymer_contact_links_s04\packages\polymer\default_build.dart' (OS Error: Le chemin d’accès spécifié est introuvable.
+, errno = 3)
+Stack Trace:
+#0      _asyncLoadErrorCallback (dart:_builtin:343)
+#1      _asyncLoadError (dart:_builtin:362)
+#2      _loadDataAsyncDartIO.<anonymous closure> (dart:_builtin:76)
+#3      _RootZone.runUnary (dart:async/zone.dart:1155)
+#4      _Future._propagateToListeners.handleError (dart:async/future_impl.dart:515)
+#5      _Future._propagateToListeners (dart:async/future_impl.dart:570)
+#6      _Future._completeWithValue (dart:async/future_impl.dart:358)
+#7      _Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:412)
+#8      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:41)
+#9      _asyncRunCallback (dart:async/schedule_microtask.dart:48)
+#10     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
+#11     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:143)
+
+#0      _rootHandleUncaughtError.<anonymous closure> (dart:async/zone.dart:886)
+#1      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:41)
+#2      _asyncRunCallback (dart:async/schedule_microtask.dart:48)
+#3      _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
+#4      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:143)
+build.dart finished [1326 ms]
+
+---
+build.dart --machine --changed=lib\view\component\contact\~$ntact_edit.html
+Unhandled exception:
+Uncaught Error: Load Error: FileSystemException: Cannot open file, path = 'C:\Users\A&S\Desktop\Charaf\polymer_contact_links_s04\packages\polymer\default_build.dart' (OS Error: Le chemin d’accès spécifié est introuvable.
+, errno = 3)
+Stack Trace:
+#0      _asyncLoadErrorCallback (dart:_builtin:343)
+#1      _asyncLoadError (dart:_builtin:362)
+#2      _loadDataAsyncDartIO.<anonymous closure> (dart:_builtin:76)
+#3      _RootZone.runUnary (dart:async/zone.dart:1155)
+#4      _Future._propagateToListeners.handleError (dart:async/future_impl.dart:515)
+#5      _Future._propagateToListeners (dart:async/future_impl.dart:570)
+#6      _Future._completeWithValue (dart:async/future_impl.dart:358)
+#7      _Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:412)
+#8      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:41)
+#9      _asyncRunCallback (dart:async/schedule_microtask.dart:48)
+#10     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
+#11     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:143)
+
+#0      _rootHandleUncaughtError.<anonymous closure> (dart:async/zone.dart:886)
+#1      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:41)
+#2      _asyncRunCallback (dart:async/schedule_microtask.dart:48)
+#3      _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
+#4      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:143)
+build.dart finished [960 ms]
+
+---
+build.dart --machine --removed=lib\view\component\contact\~$ntact_edit.html
+Unhandled exception:
+Uncaught Error: Load Error: FileSystemException: Cannot open file, path = 'C:\Users\A&S\Desktop\Charaf\polymer_contact_links_s04\packages\polymer\default_build.dart' (OS Error: Le chemin d’accès spécifié est introuvable.
+, errno = 3)
+Stack Trace:
+#0      _asyncLoadErrorCallback (dart:_builtin:343)
+#1      _asyncLoadError (dart:_builtin:362)
+#2      _loadDataAsyncDartIO.<anonymous closure> (dart:_builtin:76)
+#3      _RootZone.runUnary (dart:async/zone.dart:1155)
+#4      _Future._propagateToListeners.handleError (dart:async/future_impl.dart:515)
+#5      _Future._propagateToListeners (dart:async/future_impl.dart:570)
+#6      _Future._completeWithValue (dart:async/future_impl.dart:358)
+#7      _Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:412)
+#8      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:41)
+#9      _asyncRunCallback (dart:async/schedule_microtask.dart:48)
+#10     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
+#11     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:143)
+
+#0      _rootHandleUncaughtError.<anonymous closure> (dart:async/zone.dart:886)
+#1      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:41)
+#2      _asyncRunCallback (dart:async/schedule_microtask.dart:48)
+#3      _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
+#4      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:143)
+build.dart finished [1323 ms]
+
+---
+build.dart --machine --changed=lib\view\component\contact\contact_edit.html --changed=lib\view\component\contac...
+Unhandled exception:
+Uncaught Error: Load Error: FileSystemException: Cannot open file, path = 'C:\Users\A&S\Desktop\Charaf\polymer_contact_links_s04\packages\polymer\default_build.dart' (OS Error: Le chemin d’accès spécifié est introuvable.
+, errno = 3)
+Stack Trace:
+#0      _asyncLoadErrorCallback (dart:_builtin:343)
+#1      _asyncLoadError (dart:_builtin:362)
+#2      _loadDataAsyncDartIO.<anonymous closure> (dart:_builtin:76)
+#3      _RootZone.runUnary (dart:async/zone.dart:1155)
+#4      _Future._propagateToListeners.handleError (dart:async/future_impl.dart:515)
+#5      _Future._propagateToListeners (dart:async/future_impl.dart:570)
+#6      _Future._completeWithValue (dart:async/future_impl.dart:358)
+#7      _Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:412)
+#8      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:41)
+#9      _asyncRunCallback (dart:async/schedule_microtask.dart:48)
+#10     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
+#11     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:143)
+
+#0      _rootHandleUncaughtError.<anonymous closure> (dart:async/zone.dart:886)
+#1      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:41)
+#2      _asyncRunCallback (dart:async/schedule_microtask.dart:48)
+#3      _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
+#4      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:143)
+build.dart finished [1280 ms]
+
+---
+build.dart --machine --changed=lib\view\component\contact\~$ntact_table.html
+Unhandled exception:
+Uncaught Error: Load Error: FileSystemException: Cannot open file, path = 'C:\Users\A&S\Desktop\Charaf\polymer_contact_links_s04\packages\polymer\default_build.dart' (OS Error: Le chemin d’accès spécifié est introuvable.
+, errno = 3)
+Stack Trace:
+#0      _asyncLoadErrorCallback (dart:_builtin:343)
+#1      _asyncLoadError (dart:_builtin:362)
+#2      _loadDataAsyncDartIO.<anonymous closure> (dart:_builtin:76)
+#3      _RootZone.runUnary (dart:async/zone.dart:1155)
+#4      _Future._propagateToListeners.handleError (dart:async/future_impl.dart:515)
+#5      _Future._propagateToListeners (dart:async/future_impl.dart:570)
+#6      _Future._completeWithValue (dart:async/future_impl.dart:358)
+#7      _Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:412)
+#8      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:41)
+#9      _asyncRunCallback (dart:async/schedule_microtask.dart:48)
+#10     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
+#11     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:143)
+
+#0      _rootHandleUncaughtError.<anonymous closure> (dart:async/zone.dart:886)
+#1      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:41)
+#2      _asyncRunCallback (dart:async/schedule_microtask.dart:48)
+#3      _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
+#4      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:143)
+build.dart finished [1464 ms]
+
+---
+build.dart --machine --changed=lib\view\component\contact\contact_table.html --changed=lib\view\component\conta...
+Unhandled exception:
+Uncaught Error: Load Error: FileSystemException: Cannot open file, path = 'C:\Users\A&S\Desktop\Charaf\polymer_contact_links_s04\packages\polymer\default_build.dart' (OS Error: Le chemin d’accès spécifié est introuvable.
+, errno = 3)
+Stack Trace:
+#0      _asyncLoadErrorCallback (dart:_builtin:343)
+#1      _asyncLoadError (dart:_builtin:362)
+#2      _loadDataAsyncDartIO.<anonymous closure> (dart:_builtin:76)
+#3      _RootZone.runUnary (dart:async/zone.dart:1155)
+#4      _Future._propagateToListeners.handleError (dart:async/future_impl.dart:515)
+#5      _Future._propagateToListeners (dart:async/future_impl.dart:570)
+#6      _Future._completeWithValue (dart:async/future_impl.dart:358)
+#7      _Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:412)
+#8      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:41)
+#9      _asyncRunCallback (dart:async/schedule_microtask.dart:48)
+#10     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
+#11     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:143)
+
+#0      _rootHandleUncaughtError.<anonymous closure> (dart:async/zone.dart:886)
+#1      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:41)
+#2      _asyncRunCallback (dart:async/schedule_microtask.dart:48)
+#3      _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
+#4      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:143)
+build.dart finished [1132 ms]
+

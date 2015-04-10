@@ -1,0 +1,83 @@
+Questions
+
+===
+The first click on the Show Add button in the ContactTable
+does not show the add section!?
+
+Ivo:
+The 1st time Show Add is clicked the text is not 'Show Add' but something like '\n             Show Add\n  '.
+That's why it doesn't work as expected.
+
+<button id="show-add" class="button" on-click="show">
+  Show Add
+</button>
+
+->
+
+<button id="show-add" class="button" on-click="show">Show Add</button>
+===
+
+===
+ContactTable component has contacts
+  @published contacts contacts;
+that are passed to it when the component is used:
+  <template>
+    <contact-table contacts="{{contacts}}"></contact-table>
+  </template>
+
+contactAdd component has contacts
+  @published contacts contacts;
+that are passed to it when the component is used:
+  <template if="{{showAdd}}">
+	<contact-add
+	  contacts="{{contactss}}">
+	</contact-add>
+  </template>
+
+Are the two contacts the same object?
+Yes (almost sure).
+
+If a contact is added to the second contacts,
+how to refresh the first contacts?
+
+The contacts, when first used, must be observed.
+In polymer_app.dart:
+does not work: contacts = toObservable(contactLinksModel.contacts);
+what works:
+contacts = contactLinksModel.contacts;
+contacts.internalList = toObservable(contacts.internalList);
+In repeat="{{contact in contacts.internalList}}":
+you cannot use contacts.toList();
+you must use contacts.internalList.
+===
+
+===
+contact_edit.html
+input field: value="{{contact.description}}"
+cannot change the value !?
+
+Use a non-composite property:
+
+@published String description;
+
+  enteredView() {
+    super.enteredView();
+    description = contact.description;
+  }
+
+html:  value="{{description}}
+
+To try: add @published in front of description property in the model.
+
+Tried, did not work:
+
+@published
+class Contact extends ConceptEntity<Contact> {
+  @published String description;
+
+value="{{contact.description}}"
+===
+
+
+
+
